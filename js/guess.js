@@ -20,4 +20,3 @@ while(input != randNum){
 
 }
 
-8

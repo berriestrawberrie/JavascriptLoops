@@ -17,5 +17,6 @@ function generateRandomArray(length){
 
 myArray = generateRandomArray(length);
 
-alert(`Your random array of ( ${length} ) length is ${myArray}`);
+document.getElementById("output").innerHTML = myArray;
+console.log(`Your random array of ( ${length} ) length is ${myArray}`);
 

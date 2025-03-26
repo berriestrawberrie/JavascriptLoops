@@ -1,0 +1,49 @@
+@use 'colors';
+@use 'fonts';
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fonts.$font;
+    height: 80vh;
+    background-color: colors.$main;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    font-size: 60px;
+    color: colors.$accent;
+    letter-spacing: 2px;
+}
+h2{
+    color: colors.$accent;
+
+}
+
+ul{
+    list-style: none;
+    li{
+
+        margin: 10px;
+        background-color: colors.$light;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    li:hover{
+        background-color: colors.$accent;
+        translate: 10px 0;
+    }
+}
+a{
+    color: colors.$main;
+    text-decoration: none;
+}
+
+@import 'array';
